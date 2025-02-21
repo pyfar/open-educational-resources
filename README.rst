@@ -23,7 +23,7 @@ The rendered version is hosted on `readthedocs.org`_.
 Getting Started
 ===============
 
-To get started with the notebooks, click on the `binder`_ link above or visit the `readthedocs`_ page.
+To get started with the notebooks, click on the `binder`_ link above or visit the `readthedocs.org`_ page.
 
 Instructions on how to run the notebooks locally will follow soon.
 
