@@ -29,6 +29,9 @@ dependencies = [
     'scipy',
     'matplotlib',
     'pyfar',
+    'ipympl',
+    'ipykernel',
+    'jupyter',
 ]
 
 [project.optional-dependencies]
