@@ -3,7 +3,7 @@ Contributing
 
 
 Setting up the environment!
-------------
+---------------------------
 
 Ready to contribute? Here's how to set up `pyfar_gallery` for local development using the command-line interface. Note that several alternative user interfaces exist, e.g., the Git GUI, `GitHub Desktop <https://desktop.github.com/>`_, extensions in `Visual Studio Code <https://code.visualstudio.com/>`_ ...
 
