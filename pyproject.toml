@@ -22,7 +22,7 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
-    
+
 ]
 dependencies = [
     'numpy',
@@ -33,10 +33,6 @@ dependencies = [
 
 [project.optional-dependencies]
 deploy = [
-    "twine",
-    "wheel",
-    "build",
-    "setuptools",
     "bump-my-version",
     ]
 tests = [
@@ -45,7 +41,8 @@ tests = [
     "watchdog",
     "ruff==0.8.3",
     "coverage",
-    
+    "nbmake"
+
 ]
 docs = [
     "sphinx",
@@ -55,6 +52,11 @@ docs = [
     "sphinx-design",
     "sphinx-favicon",
     "sphinx-reredirects",
+    "watermark",
+    "nbsphinx",
+    "nbsphinx-link",
+    "sphinx-gallery",
+    "ipykernel",
 ]
 dev = ["open_educational_resources[deploy,tests,docs]"]
 

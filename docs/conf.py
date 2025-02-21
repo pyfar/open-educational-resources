@@ -12,7 +12,7 @@ import urllib3
 import shutil
 sys.path.insert(0, os.path.abspath('..'))
 
-import open_educational_resources  # noqa
+# import open_educational_resources  # noqa
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -30,6 +30,7 @@ extensions = [
     'sphinx_favicon',
     'sphinx_reredirects',
     'sphinx_mdinclude',
+    'nbsphinx',
 ]
 
 # show tocs for classes and functions of modules using the autodocsumm
@@ -54,7 +55,7 @@ source_suffix = {
 master_doc = 'index'
 
 # General information about the project.
-project = 'open-educational-resources'
+project = 'open_educational_resources'
 copyright = "2025, The pyfar developers"
 author = "The pyfar developers"
 
@@ -63,9 +64,9 @@ author = "The pyfar developers"
 # the built documents.
 #
 # The short X.Y version.
-version = open_educational_resources.__version__
+# version = open_educational_resources.__version__
 # The full version, including alpha/beta/rc tags.
-release = open_educational_resources.__version__
+# release = open_educational_resources.__version__
 
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
@@ -125,9 +126,16 @@ html_theme_options = {
           "icon": "fa-brands fa-square-github",
           "type": "fontawesome",
         },
+        {
+            "name": "CC-BY",
+            "url": "https://creativecommons.org/licenses/by/4.0/deed.de",
+            "icon": "fa-brands fa-creative-commons-by",
+            "type": "fontawesome",
+        }
     ],
     # Configure secondary (right) side bar
     "show_toc_level": 3,  # Show all subsections of notebooks
+    "show_nav_level": 2,
     "secondary_sidebar_items": ["page-toc"],  # Omit 'show source' link that that shows notebook in json format
     "navigation_with_keys": True,
     # Configure navigation depth for section navigation
@@ -183,3 +191,53 @@ with open("_static/header.rst", "rt") as fin:
         # add project to the list of projects if not in header
         if not contains_project:
             fout.write(f'   {project} <{project}>\n')
+
+
+# -- Options for nbsphinx -------------------------------------------------
+nbsphinx_prolog = r"""
+{% set docname = 'docs/' + env.doc2path(env.docname, base=None)|string %}
+
+.. raw:: html
+
+    <div class="admonition note">
+      {% if "gallery/no_binder/" in docname %}
+      This example must be run locally, please
+      {% else %}
+      Open an interactive online version by clicking the badge
+      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?labpath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
+      or
+      {% endif %}
+      <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
+      the notebook.
+      <script>
+        if (document.location.host) {
+          let nbviewer_link = document.createElement('a');
+          nbviewer_link.setAttribute('href',
+            'https://nbviewer.org/url' +
+            (window.location.protocol == 'https:' ? 's/' : '/') +
+            window.location.host +
+            window.location.pathname.slice(0, -4) +
+            'ipynb');
+          nbviewer_link.innerHTML = 'Or view it on <em>nbviewer</em>';
+          nbviewer_link.classList.add('reference');
+          nbviewer_link.classList.add('external');
+          document.currentScript.replaceWith(nbviewer_link, '.');
+        }
+      </script>
+    </div>
+
+"""
+
+# -- manage thumbnails --------------------------------------------------------
+# must be located in 'docs/_static'
+# nbsphinx_thumbnails = {
+#     'gallery/interactive/pyfar_audio_objects': '_static/thumbnail_pyfar_audio_objects.png',
+#     'gallery/interactive/pyfar_coordinates': '_static/thumbnail_pyfar_coordinates.png',
+#     'gallery/interactive/pyfar_filter_types': '_static/thumbnail_pyfar_filter_types.png',
+#     'gallery/interactive/pyfar_arithmetics': '_static/thumbnail_pyfar_arithmetics.png',
+#     'gallery/interactive/pyfar_filtering': '_static/thumbnail_pyfar_filtering.png',
+#     'gallery/interactive/sofar_introduction': '_static/thumbnail_sofar_introduction.png',
+#     'gallery/interactive/fast_fourier_transform': '_static/thumbnail_fast_fourier_transform.png',
+#     'gallery/interactive/pyfar_introduction': '_static/pyfar_pf_transparent.png',
+#     'gallery/interactive/pyfar_interactive_plots' : '_static/thumbnail_pyfar_interactive_plots.png',
+# }
