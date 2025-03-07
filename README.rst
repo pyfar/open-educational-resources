@@ -1,5 +1,5 @@
-pyfar gallery
-=============
+Pyfar Open Educational Resources
+================================
 
 .. image:: https://readthedocs.org/projects/pyfar-oer/badge/?version=latest
     :target: https://pyfar-oer.readthedocs.io/en/latest/?badge=latest

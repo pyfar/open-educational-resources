@@ -200,11 +200,11 @@ nbsphinx_prolog = r"""
 .. raw:: html
 
     <div class="admonition note">
-      {% if "gallery/no_binder/" in docname %}
+      {% if "open-educational-resources/no_binder/" in docname %}
       This example must be run locally, please
       {% else %}
       Open an interactive online version by clicking the badge
-      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/gallery/main?labpath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
+      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/pyfar/open-educational-resources/main?labpath={{ docname|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a></span>
       or
       {% endif %}
       <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>download</a>
@@ -231,13 +231,5 @@ nbsphinx_prolog = r"""
 # -- manage thumbnails --------------------------------------------------------
 # must be located in 'docs/_static'
 # nbsphinx_thumbnails = {
-#     'gallery/interactive/pyfar_audio_objects': '_static/thumbnail_pyfar_audio_objects.png',
-#     'gallery/interactive/pyfar_coordinates': '_static/thumbnail_pyfar_coordinates.png',
-#     'gallery/interactive/pyfar_filter_types': '_static/thumbnail_pyfar_filter_types.png',
-#     'gallery/interactive/pyfar_arithmetics': '_static/thumbnail_pyfar_arithmetics.png',
-#     'gallery/interactive/pyfar_filtering': '_static/thumbnail_pyfar_filtering.png',
-#     'gallery/interactive/sofar_introduction': '_static/thumbnail_sofar_introduction.png',
-#     'gallery/interactive/fast_fourier_transform': '_static/thumbnail_fast_fourier_transform.png',
-#     'gallery/interactive/pyfar_introduction': '_static/pyfar_pf_transparent.png',
-#     'gallery/interactive/pyfar_interactive_plots' : '_static/thumbnail_pyfar_interactive_plots.png',
+#     'gallery/folder/notebook': '_static/thumbnail_notebook.png',
 # }
