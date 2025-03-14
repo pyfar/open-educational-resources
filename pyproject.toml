@@ -1,7 +1,7 @@
 [project]
 name = "open_educational_resources"
 version = "0.1.0"
-description = "Project for data formats in acoustics."
+description = "Open educational resources for teaching acoustics."
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -44,8 +44,8 @@ tests = [
     "watchdog",
     "ruff==0.8.3",
     "coverage",
-    "nbmake"
-
+    "nbmake",
+    "nbgrader",
 ]
 docs = [
     "sphinx",
@@ -60,16 +60,13 @@ docs = [
     "nbsphinx-link",
     "sphinx-gallery",
     "ipykernel",
+    "nbgrader",
 ]
 dev = ["open_educational_resources[deploy,tests,docs]"]
 
 [project.urls]
-Tracker = "https://github.com/pyfar/open_educational_resources/issues"
-Documentation = "https://open_educational_resources.readthedocs.io/"
-Download = "https://pypi.org/project/open_educational_resources/"
+Documentation = "https://pyfar-oer.readthedocs.io/"
 Homepage = "https://pyfar.org/"
-Source = "https://github.com/pyfar/open_educational_resources"
-Changelog = "https://github.com/pyfar/open_educational_resources/blob/main/HISTORY.rst"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
