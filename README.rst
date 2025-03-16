@@ -6,6 +6,9 @@ Pyfar Open Educational Resources
     :alt: Documentation Status
 .. image:: https://mybinder.org/badge_logo.svg
     :target: https://mybinder.org/v2/gh/pyfar/open_educational_resources/main?filepath=docs/oer
+.. image:: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+    :target: https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1
+    :height: 20
 
 
 
@@ -32,3 +35,13 @@ Contributing
 If you want to contribute, please check `here`_ to get in touch with us.
 
 .. _here: https://pyfar-gallery.readthedocs.io/en/latest/contribute/
+
+
+License
+-------
+Unless otherwise stated all notebooks and assigments are licensed under `CC BY 4.0 <http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1>`_, individual author information are found in the respective notebooks.
+
+The framework and backend code © 2024 by `the pyfar developers <https://github.com/orgs/pyfar/people>`_ are licensed under `CC BY 4.0 <http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1>`_
+
+.. image:: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg
+    :target: https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1
