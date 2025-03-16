@@ -152,8 +152,7 @@ redirects = {
 }
 
 # -- download navbar and style files from gallery -----------------------------
-# branch = 'main'
-branch = 'edu_resources'
+branch = 'main'
 link = f'https://github.com/pyfar/gallery/raw/{branch}/docs/'
 folders_in = [
     '_static/css/custom.css',
