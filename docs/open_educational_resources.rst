@@ -5,7 +5,7 @@ Collection of open educational resources on acoustics.
 
 .. nbgallery::
    :caption: Assignments on pyfar packages
-   :name: getting_started
+   :name: pyfar_assignments
    :glob:
 
-   oer/assignments/placeholder.ipynb
+   oer/assignments/pyfar_challenge.ipynb
