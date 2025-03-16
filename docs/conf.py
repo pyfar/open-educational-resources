@@ -230,6 +230,6 @@ nbsphinx_prolog = r"""
 
 # -- manage thumbnails --------------------------------------------------------
 # must be located in 'docs/_static'
-# nbsphinx_thumbnails = {
-#     'gallery/folder/notebook': '_static/thumbnail_notebook.png',
-# }
+nbsphinx_thumbnails = {
+    'oer/assignnments/placeholder': '_static/pyfar_pf_transparent.png',
+}
