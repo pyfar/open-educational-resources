@@ -4,8 +4,6 @@ Pyfar Open Educational Resources
 .. image:: https://readthedocs.org/projects/pyfar-oer/badge/?version=latest
     :target: https://pyfar-oer.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-.. image:: https://circleci.com/gh/pyfar/open_educational_resources.svg?style=shield
-    :target: https://circleci.com/gh/pyfar/open_educational_resources
 .. image:: https://mybinder.org/badge_logo.svg
     :target: https://mybinder.org/v2/gh/pyfar/open_educational_resources/main?filepath=docs/oer
 
