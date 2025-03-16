@@ -9,9 +9,3 @@ Collection of open educational resources on acoustics.
    :glob:
 
    oer/assignments/placeholder.ipynb
-
-
-.. Contributing
-.. ============
-
-.. If you want to contribute to this project, please refer to the `contributing guide <../CONTRIBUTING.rst>`_.
