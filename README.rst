@@ -31,6 +31,6 @@ Instructions on how to run the notebooks locally will follow soon.
 Contributing
 ============
 
-Check out the `contributing guidelines`_ for more information on how to contribute.
+If you want to contribute, please check `here`_ to get in touch with us.
 
-.. _contributing guidelines: contributing.rst
+.. _here: https://pyfar-gallery.readthedocs.io/en/latest/contribute/
