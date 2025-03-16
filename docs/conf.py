@@ -152,7 +152,8 @@ redirects = {
 }
 
 # -- download navbar and style files from gallery -----------------------------
-branch = 'main'
+# branch = 'main'
+branch = 'edu_resources'
 link = f'https://github.com/pyfar/gallery/raw/{branch}/docs/'
 folders_in = [
     '_static/css/custom.css',
@@ -183,7 +184,7 @@ if not os.path.exists(html_logo):
 # replace open_educational_resources hard link to internal link
 with open("_static/header.rst", "rt") as fin:
     with open("header.rst", "wt") as fout:
-        lines = [line.replace(f'https://{project}.readthedocs.io', project) for line in fin]
+        lines = [line.replace('https://pyfar-oer.readthedocs.io', project) for line in fin]
         contains_project = any(project in line for line in lines)
 
         fout.writelines(lines)
