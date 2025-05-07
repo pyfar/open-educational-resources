@@ -9,3 +9,4 @@ Collection of open educational resources on acoustics.
    :glob:
 
    oer/assignments/pyfar_challenge.ipynb
+   oer/assignments/nb1.ipynb
