@@ -232,7 +232,7 @@ nbsphinx_thumbnails = {
         '_static/pyfar_pf_transparent.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'hrtfs_reading_and_inspecting/HRTF_basics'): \
-        '_static/AKlogo_withMargin.png',
+        '_static/head_mesh.png',
 }
 
 nbsphinx_execute = 'never'
