@@ -225,10 +225,14 @@ nbsphinx_prolog = r"""
 
 """
 
-# -- manage thumbnails --------------------------------------------------------
+# --manage thumbnails --------------------------------------------------------
 # must be located in 'docs/_static'
 nbsphinx_thumbnails = {
-    'oer/assignments/pyfar_challenge': '_static/pyfar_pf_transparent.png',
+    'oer/assignments/pyfar_challenge': \
+        '_static/pyfar_pf_transparent.png',
+    ('oer/courses/Virtual_Acoustic_Reality_TUB/'
+    'hrtfs_reading_and_inspecting/HRTF_basics'): \
+        '_static/head_mesh.png',
 }
 
 nbsphinx_execute = 'never'
