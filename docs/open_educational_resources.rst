@@ -12,7 +12,7 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
    :name: pyfar_assignments
    :glob:
 
-   oer/assignments/pyfar_challenge.ipynb
+   oer/courses/pyfar/pyfar_challenge/pyfar_challenge.ipynb
 
 .. nbgallery::
    :caption: Virtual Acoustic Reality (Audio Communication Group, TU Berlin)
