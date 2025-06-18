@@ -21,3 +21,4 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
 
    oer/courses/Virtual_Acoustic_Reality_TUB/hrtfs_reading_and_inspecting/HRTF_basics.ipynb
 
+   oer/courses/pyfar/pyfar_challenge/pyfar_challenge.ipynb
