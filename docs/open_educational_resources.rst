@@ -20,3 +20,10 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
    :glob:
 
    oer/courses/Virtual_Acoustic_Reality_TUB/hrtfs_reading_and_inspecting/HRTF_basics.ipynb
+
+.. nbgallery::
+   :caption: Virtual Acoustics Lab (FAU Erlangen-Nürnberg)
+   :name: val_fau
+   :glob:
+
+   oer/courses/Virtual_Acoustics_Lab_FAU/Assignment1/Assignment1.ipynb
