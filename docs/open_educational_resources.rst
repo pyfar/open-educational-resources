@@ -21,6 +21,7 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
 
    oer/courses/Virtual_Acoustic_Reality_TUB/hrtfs_reading_and_inspecting/HRTF_basics.ipynb
    oer/courses/Virtual_Acoustic_Reality_TUB/hrfts_local_interpolation/hrtf_local_interpolation.ipynb
+   oer/courses/Virtual_Acoustic_Reality_TUB/room_simulation_ism/image_source_model.ipynb
 
 .. nbgallery::
    :caption: Virtual Acoustics Lab (FAU Erlangen-Nürnberg)
