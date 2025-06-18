@@ -236,6 +236,9 @@ nbsphinx_thumbnails = {
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'hrfts_local_interpolation/hrtf_local_interpolation'): \
         '_static/head_mesh.png',
+    ('oer/courses/Virtual_Acoustic_Reality_TUB/'
+    'room_simulation_ism/image_source_model'): \
+        '_static/image_source_model.png',
     ('oer/courses/Virtual_Acoustics_Lab_FAU/'
     'Assignment1/Assignment1'): \
         '_static/Artificial-Audio-Logo.jpg',
