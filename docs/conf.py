@@ -188,7 +188,7 @@ with open("_static/header.rst", "rt") as fin:
 
 # replace readthedocs link with internal link to this documentation
 lines_mod = [
-    line.replace(f'https://{project}.readthedocs.io', project) for line in lines]
+    line.replace(f'https://pyfar-oer.readthedocs.io', project) for line in lines]
 
 # write the modified header file
 # to the doc\header.rst folder, so that it can be used in the documentation
