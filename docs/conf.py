@@ -190,12 +190,6 @@ with open("_static/header.rst", "rt") as fin:
 lines_mod = [
     line.replace(f'https://{project}.readthedocs.io', project) for line in lines]
 
-# if not found, add this documentation link to the end of the list, so that
-# it is in the doc tree
-contains_project = any(project in line for line in lines_mod)
-if not contains_project:
-    lines_mod.append(f'   {project} <{project}>\n')
-
 # write the modified header file
 # to the doc\header.rst folder, so that it can be used in the documentation
 with open("header.rst", "wt") as fout:
