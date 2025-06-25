@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+pyfar>=0.7.0
+ipympl
+ipykernel
+jupyter
+sounddevice
+pooch
+sofar
+watermark
+ipympl
