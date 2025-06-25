@@ -28,10 +28,15 @@ dependencies = [
     'numpy',
     'scipy',
     'matplotlib',
-    'pyfar',
+    'pyfar>=0.7.0',
     'ipympl',
     'ipykernel',
     'jupyter',
+    'sounddevice',
+    'pooch',
+    'sofar',
+    'watermark',
+    'ipympl',
 ]
 
 [project.optional-dependencies]
