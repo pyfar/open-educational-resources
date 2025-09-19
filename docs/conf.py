@@ -274,6 +274,9 @@ nbsphinx_thumbnails = {
     ('oer/courses/Virtual_Acoustics_Lab_FAU/'
     'Assignment1/Assignment1'): \
         '_static/Artificial-Audio-Logo.jpg',
+    ('oer/courses/Virtual_Acoustics_Lab_FAU/'
+    'Assignment2/Assignment2'): \
+        '_static/Artificial-Audio-Logo.jpg',
 }
 
 nbsphinx_execute = 'never'
