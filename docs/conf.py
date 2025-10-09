@@ -263,6 +263,9 @@ nbsphinx_thumbnails = {
     'oer/courses/pyfar/pyfar_challenge/pyfar_challenge': \
         '_static/pyfar_pf_transparent.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
+    'binaural_synthesis/binaural_synthesis'): \
+        '_static/head_mesh.png',
+    ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'hrtfs_reading_and_inspecting/HRTF_basics'): \
         '_static/head_mesh.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
