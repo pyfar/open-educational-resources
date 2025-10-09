@@ -199,7 +199,7 @@ with open("header.rst", "wt") as fout:
 # -- find position of pyfar package in toctree --------------------------------
 # -- this is required to define the dropdown of Packages in the header --------
 
-# find line where pyfar package is mentioned, to determine the start of 
+# find line where pyfar package is mentioned, to determine the start of
 # the packages list in the header
 n_line_pyfar = 0
 for i, line in enumerate(lines):
@@ -212,7 +212,7 @@ for i, line in enumerate(lines):
 # of the pyfar package to get the correct position in the toctree
 n_toctree_pyfar = n_line_pyfar - 4
 
-if n_toctree_pyfar < 1:	
+if n_toctree_pyfar < 1:
     raise ValueError(
         "Could not find the line where pyfar package is mentioned. "
         "Please check the header.rst file in the gallery."
@@ -267,6 +267,9 @@ nbsphinx_thumbnails = {
         '_static/head_mesh.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'hrfts_local_interpolation/hrtf_local_interpolation'): \
+        '_static/head_mesh.png',
+    ('oer/courses/Virtual_Acoustic_Reality_TUB/'
+    'hrtf_sh_interpolation/hrtf_sh_interpolation'): \
         '_static/head_mesh.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'room_simulation_ism/image_source_model'): \
