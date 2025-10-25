@@ -264,19 +264,22 @@ nbsphinx_thumbnails = {
         '_static/pyfar_pf_transparent.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'binaural_synthesis/binaural_synthesis'): \
-        '_static/head_mesh.png',
+        '_static/TUB_VAR_head_mesh.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'hrtfs_reading_and_inspecting/HRTF_basics'): \
-        '_static/head_mesh.png',
+        '_static/TUB_VAR_head_mesh.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'hrfts_local_interpolation/hrtf_local_interpolation'): \
-        '_static/head_mesh.png',
+        '_static/TUB_VAR_head_mesh.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'hrtf_sh_interpolation/hrtf_sh_interpolation'): \
-        '_static/head_mesh.png',
+        '_static/TUB_VAR_head_mesh.png',
+    ('oer/courses/Virtual_Acoustic_Reality_TUB/'
+    'vbap_moving_source/vbap_moving_source'): \
+        '_static/TUB_VAR_sound_field.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'room_simulation_ism/image_source_model'): \
-        '_static/image_source_model.png',
+        '_static/TUB_VAR_image_source_model.png',
     ('oer/courses/Virtual_Acoustics_Lab_FAU/'
     'Assignment1/Assignment1'): \
         '_static/Artificial-Audio-Logo.jpg',
