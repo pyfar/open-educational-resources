@@ -266,6 +266,9 @@ nbsphinx_thumbnails = {
     'binaural_synthesis/binaural_synthesis'): \
         '_static/TUB_VAR_head_mesh.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
+    'hrtf_processing/hrtf_processing'): \
+        '_static/TUB_VAR_head_mesh.png',
+    ('oer/courses/Virtual_Acoustic_Reality_TUB/'
     'hrtfs_reading_and_inspecting/HRTF_basics'): \
         '_static/TUB_VAR_head_mesh.png',
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
