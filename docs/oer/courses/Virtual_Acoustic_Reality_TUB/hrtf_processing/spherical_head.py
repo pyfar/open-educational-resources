@@ -165,7 +165,8 @@ def spherical_head(
     # This takes the frequency with wave length of hundred time the spherical
     # head diameter (19.6 Hz for the default values)
     small_frequency = speed_of_sound / (200 * head.radius[0])
-    frequencies_compute[0] = min(small_frequency, frequencies_compute[1])
+    frequencies_compute[0] = min(small_frequency,
+                                 np.mean(frequencies_compute[:2]))
 
     if reference_distance == 'coordinates':
         reference_distance = np.tile(coordinates.radius, 2)
@@ -196,7 +197,7 @@ def spherical_head(
 
     # force the (almost) 0 Hz bin and bin at the Nyquist frequency to be real
     shtf.freq[..., 0] = np.abs(shtf.freq[..., 0])
-    if n_samples % 2:
+    if not n_samples % 2:
         shtf.freq[..., -1] = np.abs(shtf.freq[..., -1])
 
     # make it a Signal
