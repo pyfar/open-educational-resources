@@ -27,6 +27,9 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
    oer/courses/Virtual_Acoustic_Reality_TUB/vbap_moving_source/vbap_moving_source.ipynb
    oer/courses/Virtual_Acoustic_Reality_TUB/room_simulation_ism/image_source_model.ipynb
 
+
+.. _val_fau:
+
 .. nbgallery::
    :caption: Virtual Acoustics Lab (FAU Erlangen-Nürnberg)
    :name: val_fau
