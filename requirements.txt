@@ -10,3 +10,4 @@ pooch
 sofar
 watermark
 ipympl
+pyroomacoustics
