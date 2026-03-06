@@ -37,3 +37,10 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
    oer/courses/Virtual_Acoustics_Lab_FAU/Assignment3/Assignment3.ipynb
    oer/courses/Virtual_Acoustics_Lab_FAU/Assignment4/Assignment4.ipynb
    oer/courses/Architectural_Acoustics_TUe/mode_shapes/mode_shapes.ipynb
+
+.. nbgallery::
+    :caption: Architectural Acoustics (TU/e)
+    :name: arch_tue
+    :glob:
+
+    oer/courses/Architectural_Acoustics_TUe/mode_shapes/mode_shapes.ipynb
