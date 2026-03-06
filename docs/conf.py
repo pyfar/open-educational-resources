@@ -298,6 +298,9 @@ nbsphinx_thumbnails = {
     ('oer/courses/Architectural_Acoustics_TUe/'
     'mode_shapes/mode_shapes'): \
         '_static/TUB_VAR_image_source_model.png',
+    ('oer/courses/Architectural_Acoustics_TUe/'
+    'image_sources/image_sources'): \
+        '_static/TUB_VAR_image_source_model.png',
 }
 
 nbsphinx_execute = 'never'
