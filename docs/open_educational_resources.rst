@@ -42,3 +42,4 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
    oer/courses/Architectural_Acoustics_TUe/image_sources/image_sources.ipynb
    oer/courses/Architectural_Acoustics_TUe/reverberation_time_measurement/reverberation_time_measurement.ipynb
    oer/courses/Architectural_Acoustics_TUe/BA_measurements/BA_measurements.ipynb
+   oer/courses/Architectural_Acoustics_TUe/BA_predictions/BA_predictions.ipynb
