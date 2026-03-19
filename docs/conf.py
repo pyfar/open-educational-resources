@@ -304,6 +304,10 @@ nbsphinx_thumbnails = {
     ('oer/courses/Architectural_Acoustics_TUe/'
     'reverberation_time_measurement/' \
     'reverberation_time_measurement'): \
+        '_static/TUB_VAR_image_source_model.png',
+    ('oer/courses/Architectural_Acoustics_TUe/'
+    'BA_measurements/' \
+    'BA_measurements'): \
         '_static/TUB_VAR_image_source_model.png'
 }
 
