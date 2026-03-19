@@ -308,6 +308,10 @@ nbsphinx_thumbnails = {
     ('oer/courses/Architectural_Acoustics_TUe/'
     'BA_measurements/' \
     'BA_measurements'): \
+        '_static/TUB_VAR_image_source_model.png',
+    ('oer/courses/Architectural_Acoustics_TUe/'
+    'BA_predictions/' \
+    'BA_predictions'): \
         '_static/TUB_VAR_image_source_model.png'
 }
 
