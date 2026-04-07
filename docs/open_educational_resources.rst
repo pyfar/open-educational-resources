@@ -32,6 +32,7 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
    oer/courses/Virtual_Acoustics_Lab_FAU/Assignment2/Assignment2.ipynb
    oer/courses/Virtual_Acoustics_Lab_FAU/Assignment3/Assignment3.ipynb
    oer/courses/Virtual_Acoustics_Lab_FAU/Assignment4/Assignment4.ipynb
+   oer/courses/Virtual_Acoustics_Lab_FAU/Assignment5/Assignment5.ipynb
 
 .. nbgallery::
    :caption: Architectural Acoustics (TU/e)
@@ -43,4 +44,4 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
    oer/courses/Architectural_Acoustics_TUe/reverberation_time_measurement/reverberation_time_measurement.ipynb
    oer/courses/Architectural_Acoustics_TUe/BA_measurements/BA_measurements.ipynb
    oer/courses/Architectural_Acoustics_TUe/BA_predictions/BA_predictions.ipynb
-   oer/courses/Virtual_Acoustics_Lab_FAU/Assignment5/Assignment5.ipynb
+
