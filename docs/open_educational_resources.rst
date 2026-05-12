@@ -34,6 +34,8 @@ Welcome to the pyfar open educational resources on acoustics, a collection of Ju
    oer/courses/Virtual_Acoustics_Lab_FAU/Assignment4/Assignment4.ipynb
    oer/courses/Virtual_Acoustics_Lab_FAU/Assignment5/Assignment5.ipynb
 
+The assignments are accompanied by a `web handbook <https://artificial-audio.github.io/virtual-acoustics/>`_ that provides the necessary theoretical background.
+
 .. nbgallery::
    :caption: Architectural Acoustics (TU/e)
    :name: arch_tue
