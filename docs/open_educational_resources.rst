@@ -46,5 +46,3 @@ The assignments are accompanied by a `web handbook <https://artificial-audio.git
    oer/courses/Architectural_Acoustics_TUe/reverberation_time_measurement/reverberation_time_measurement.ipynb
    oer/courses/Architectural_Acoustics_TUe/BA_measurements/BA_measurements.ipynb
    oer/courses/Architectural_Acoustics_TUe/BA_predictions/BA_predictions.ipynb
-
-   oer/courses/Virtual_Acoustic_Reality_TUB/room_simulation_ism/image_source_model.ipynb
