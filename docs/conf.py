@@ -286,6 +286,9 @@ nbsphinx_thumbnails = {
     ('oer/courses/Virtual_Acoustic_Reality_TUB/'
      'room_simulation_decaying_noise/room_simulation_decaying_noise'): \
         '_static/TUB_VAR_image_source_model.png',
+    ('oer/courses/Virtual_Acoustic_Reality_TUB/'
+     'room_simulation_hybrid/room_simulation_hybrid'): \
+        '_static/TUB_VAR_image_source_model.png',
     ('oer/courses/Virtual_Acoustics_Lab_FAU/'
     'Assignment1/Assignment1'): \
         '_static/Artificial-Audio-Logo.jpg',
