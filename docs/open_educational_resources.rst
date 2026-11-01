@@ -48,4 +48,10 @@ The assignments are accompanied by a `web handbook <https://artificial-audio.git
    oer/courses/Architectural_Acoustics_TUe/reverberation_time_measurement/reverberation_time_measurement.ipynb
    oer/courses/Architectural_Acoustics_TUe/BA_measurements/BA_measurements.ipynb
    oer/courses/Architectural_Acoustics_TUe/BA_predictions/BA_predictions.ipynb
+
+.. nbgallery::
+   :caption: ASSA 2026: Experimental Methods in Acoustics - Day 1
+   :name: assa2026
+   :glob:
+
    oer/courses/Experimental_Methods_ASSA2026/eq_filter/eq_filter.ipynb
