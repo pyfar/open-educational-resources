@@ -327,6 +327,9 @@ nbsphinx_thumbnails = {
         '_static/ASSA_2026_logo.png',
     ('oer/courses/Experimental_Methods_ASSA2026/'
     'IR_measurement/IR_measurement'): \
+        '_static/ASSA_2026_logo.png',
+    ('oer/courses/Experimental_Methods_ASSA2026/'
+    'RIR_postprocessing/IR_postprocessing'): \
         '_static/ASSA_2026_logo.png'
 }
 
