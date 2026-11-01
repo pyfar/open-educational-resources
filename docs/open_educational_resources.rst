@@ -56,3 +56,4 @@ The assignments are accompanied by a `web handbook <https://artificial-audio.git
 
    oer/courses/Experimental_Methods_ASSA2026/IR_measurement/IR_measurement.ipynb
    oer/courses/Experimental_Methods_ASSA2026/eq_filter/eq_filter.ipynb
+   oer/courses/Experimental_Methods_ASSA2026/RIR_postprocessing/IR_postprocessing.ipynb
