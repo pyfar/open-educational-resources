@@ -321,7 +321,10 @@ nbsphinx_thumbnails = {
     ('oer/courses/Architectural_Acoustics_TUe/'
     'BA_predictions/' \
     'BA_predictions'): \
-        '_static/TUB_VAR_image_source_model.png'
+        '_static/TUB_VAR_image_source_model.png',
+    ('oer/courses/Experimental_Methods_ASSA2026/'
+    'eq_filter/eq_filter'): \
+        '_static/ASSA_2026_logo.png'
 }
 
 nbsphinx_execute = 'never'
