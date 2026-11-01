@@ -324,6 +324,9 @@ nbsphinx_thumbnails = {
         '_static/TUB_VAR_image_source_model.png',
     ('oer/courses/Experimental_Methods_ASSA2026/'
     'eq_filter/eq_filter'): \
+        '_static/ASSA_2026_logo.png',
+    ('oer/courses/Experimental_Methods_ASSA2026/'
+    'IR_measurement/IR_measurement'): \
         '_static/ASSA_2026_logo.png'
 }
 
