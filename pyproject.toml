@@ -27,7 +27,7 @@ dependencies = [
     'numpy',
     'scipy',
     'matplotlib',
-    'pyfar>=0.7.0',
+    'pyfar>=0.8.0',
     'ipympl',
     'ipykernel',
     'jupyter',
