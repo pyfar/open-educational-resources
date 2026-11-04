@@ -35,7 +35,7 @@ dependencies = [
     'pooch',
     'sofar',
     'watermark',
-    'ipympl',
+    'pyroomacoustics',
 ]
 
 [project.optional-dependencies]
